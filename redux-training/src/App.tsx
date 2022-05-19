@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { TodoList } from './features/TodoList';
-import { AddTodoForm } from './features/AddTodo';
+import * as React from 'react';
+import TodoList from './components/TodoList';
+import AddTodo from './components/AddTodo';
 
 export function App() {
   return (
@@ -10,7 +10,7 @@ export function App() {
         <h4 className="mb-3">llha@tma.com.vn</h4>
         <ul>
           <TodoList />
-          <AddTodoForm />
+          <AddTodo />
         </ul>
       </div>
     </>
